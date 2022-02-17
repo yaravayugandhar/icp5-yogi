@@ -1,0 +1,12 @@
+
+
+
+.app_container_main{
+  min-height:100vh;
+  width:100%;
+  display:flex;
+  flex-direction: column;
+  background-image: linear-gradient(to right,
+  #004ff9,
+  #fff94c);
+}

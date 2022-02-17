@@ -1,0 +1,88 @@
+
+
+.countdown_timer_main_container{
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.countdown_block_container{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading_container{
+    text-align: center;
+}
+
+.event_heading{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+}
+
+@media screen and (min-width:768px){
+    .event_heading{
+        font-size: 32px;
+    }
+}
+
+.time_block_container{
+    display: flex;
+    flex-direction: column;
+    width:60%;
+    justify-content:space-between;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+    padding:20px;
+}
+@media screen and (min-width:500px){
+    .time_block_container{
+        flex-direction: row;
+    }
+
+}
+
+.each_block_main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border:8px solid rgb(214, 88, 88);
+    padding:30px;
+    background-image: linear-gradient(to right,#28313B , #485461);
+    color:white;
+    width:100px;
+    height:100px;
+    margin: 5px;
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+}
+
+@media screen and (max-width:768px){
+    .each_block_main{
+        width:50px;
+        height: 50px;
+        border:5px solid red;
+    }
+
+}
+
+.d_h_m_s_text{
+    font-size:20px;
+    margin-bottom:0px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+@media screen and (min-width:768px){
+    .d_h_m_s_text{
+        font-size:30px;
+    }
+}
+
+.d_h_m_s_info{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
